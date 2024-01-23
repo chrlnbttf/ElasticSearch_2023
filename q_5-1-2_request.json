@@ -1,0 +1,5 @@
+GET /eval/_termvectors
+{ "_id" : "IATSC4kBnTrP-VY6uA9R",
+  "fields" : ["Review Text"],
+"offsets" : true, "payloads" : true, "positions" : true, "term_statistics" : true,
+"field_statistics" : true }

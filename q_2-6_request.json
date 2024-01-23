@@ -1,0 +1,9 @@
+{
+  "query": {
+    "bool": {
+      "must_not": [
+        {
+          "term": {
+            "Department Name.keyword": {
+              "value" : ""}}}] }},
+  "_source": ["Clothing ID"] }

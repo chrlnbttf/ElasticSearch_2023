@@ -1,0 +1,6 @@
+{
+    "size": 0,
+    "aggs": {
+      "unique_makes": {
+        "cardinality": {
+            "field": "Department Name.keyword"}}}}

@@ -1,0 +1,9 @@
+GET /eval/_search
+{
+  "size":0,
+  "query" : {
+    "multi_match": {
+      "query": "",
+      "fields": ["Class Name.keyword", "Department Name.keyword", "Division Name.keyword",\
+      "Title.keyword", "Review Text.keyword"]}}}
+

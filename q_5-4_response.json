@@ -1,0 +1,286 @@
+{
+    "took" : 981,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 1,
+      "successful" : 1,
+      "skipped" : 0,
+      "failed" : 0
+    },
+    "hits" : {
+      "total" : {
+        "value" : 1054,
+        "relation" : "eq"
+      },
+      "max_score" : null,
+      "hits" : [ ]
+    },
+    "aggregations" : {
+      "Class_aggs" : {
+        "doc_count_error_upper_bound" : 0,
+        "sum_other_doc_count" : 86,
+        "buckets" : [
+          {
+            "key" : "Dresses",
+            "doc_count" : 269,
+            "extend_stats_class" : {
+              "count" : 269,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.6356877323420074,
+              "sum" : 440.0,
+              "sum_of_squares" : 782.0,
+              "variance" : 0.23158883929188362,
+              "variance_population" : 0.23158883929188362,
+              "variance_sampling" : 0.23245297675192797,
+              "std_deviation" : 0.4812367809009237,
+              "std_deviation_population" : 0.4812367809009237,
+              "std_deviation_sampling" : 0.4821337747471421,
+              "std_deviation_bounds" : {
+                "upper" : 2.5981612941438548,
+                "lower" : 0.67321417054016,
+                "upper_population" : 2.5981612941438548,
+                "lower_population" : 0.67321417054016,
+                "upper_sampling" : 2.5999552818362917,
+                "lower_sampling" : 0.6714201828477232
+              }
+            }
+          },
+          {
+            "key" : "Knits",
+            "doc_count" : 245,
+            "extend_stats_class" : {
+              "count" : 245,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.6244897959183673,
+              "sum" : 398.0,
+              "sum_of_squares" : 704.0,
+              "variance" : 0.23450229071220338,
+              "variance_population" : 0.23450229071220338,
+              "variance_sampling" : 0.23546336567413864,
+              "std_deviation" : 0.4842543657131068,
+              "std_deviation_population" : 0.4842543657131068,
+              "std_deviation_sampling" : 0.48524567558520154,
+              "std_deviation_bounds" : {
+                "upper" : 2.592998527344581,
+                "lower" : 0.6559810644921537,
+                "upper_population" : 2.592998527344581,
+                "lower_population" : 0.6559810644921537,
+                "upper_sampling" : 2.5949811470887703,
+                "lower_sampling" : 0.6539984447479642
+              }
+            }
+          },
+          {
+            "key" : "Blouses",
+            "doc_count" : 150,
+            "extend_stats_class" : {
+              "count" : 150,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.6266666666666667,
+              "sum" : 244.0,
+              "sum_of_squares" : 432.0,
+              "variance" : 0.23395555555555536,
+              "variance_population" : 0.23395555555555536,
+              "variance_sampling" : 0.23552572706935104,
+              "std_deviation" : 0.4836895239257879,
+              "std_deviation_population" : 0.4836895239257879,
+              "std_deviation_sampling" : 0.48530992887983554,
+              "std_deviation_bounds" : {
+                "upper" : 2.5940457145182423,
+                "lower" : 0.6592876188150909,
+                "upper_population" : 2.5940457145182423,
+                "lower_population" : 0.6592876188150909,
+                "upper_sampling" : 2.597286524426338,
+                "lower_sampling" : 0.6560468089069956
+              }
+            }
+          },
+          {
+            "key" : "Sweaters",
+            "doc_count" : 76,
+            "extend_stats_class" : {
+              "count" : 76,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.6842105263157894,
+              "sum" : 128.0,
+              "sum_of_squares" : 232.0,
+              "variance" : 0.21606648199446,
+              "variance_population" : 0.21606648199446,
+              "variance_sampling" : 0.21894736842105278,
+              "std_deviation" : 0.46482951928041316,
+              "std_deviation_population" : 0.46482951928041316,
+              "std_deviation_sampling" : 0.46791812149248163,
+              "std_deviation_bounds" : {
+                "upper" : 2.613869564876616,
+                "lower" : 0.7545514877549631,
+                "upper_population" : 2.613869564876616,
+                "lower_population" : 0.7545514877549631,
+                "upper_sampling" : 2.6200467693007528,
+                "lower_sampling" : 0.7483742833308261
+              }
+            }
+          },
+          {
+            "key" : "Pants",
+            "doc_count" : 58,
+            "extend_stats_class" : {
+              "count" : 58,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.6724137931034482,
+              "sum" : 97.0,
+              "sum_of_squares" : 175.0,
+              "variance" : 0.22027348394768143,
+              "variance_population" : 0.22027348394768143,
+              "variance_sampling" : 0.22413793103448287,
+              "std_deviation" : 0.469333020304007,
+              "std_deviation_population" : 0.469333020304007,
+              "std_deviation_sampling" : 0.4734320764739995,
+              "std_deviation_bounds" : {
+                "upper" : 2.6110798337114622,
+                "lower" : 0.7337477524954342,
+                "upper_population" : 2.6110798337114622,
+                "lower_population" : 0.7337477524954342,
+                "upper_sampling" : 2.6192779460514473,
+                "lower_sampling" : 0.7255496401554492
+              }
+            }
+          },
+          {
+            "key" : "Fine gauge",
+            "doc_count" : 49,
+            "extend_stats_class" : {
+              "count" : 49,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.6734693877551021,
+              "sum" : 82.0,
+              "sum_of_squares" : 148.0,
+              "variance" : 0.21990837151186993,
+              "variance_population" : 0.21990837151186993,
+              "variance_sampling" : 0.22448979591836724,
+              "std_deviation" : 0.46894388951330834,
+              "std_deviation_population" : 0.46894388951330834,
+              "std_deviation_sampling" : 0.4738035414793427,
+              "std_deviation_bounds" : {
+                "upper" : 2.611357166781719,
+                "lower" : 0.7355816087284854,
+                "upper_population" : 2.611357166781719,
+                "lower_population" : 0.7355816087284854,
+                "upper_sampling" : 2.6210764707137875,
+                "lower_sampling" : 0.7258623047964167
+              }
+            }
+          },
+          {
+            "key" : "Jeans",
+            "doc_count" : 34,
+            "extend_stats_class" : {
+              "count" : 34,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.5588235294117647,
+              "sum" : 53.0,
+              "sum_of_squares" : 91.0,
+              "variance" : 0.24653979238754306,
+              "variance_population" : 0.24653979238754306,
+              "variance_sampling" : 0.25401069518716557,
+              "std_deviation" : 0.4965277357686508,
+              "std_deviation_population" : 0.4965277357686508,
+              "std_deviation_sampling" : 0.5039947372613781,
+              "std_deviation_bounds" : {
+                "upper" : 2.551879000949066,
+                "lower" : 0.5657680578744632,
+                "upper_population" : 2.551879000949066,
+                "lower_population" : 0.5657680578744632,
+                "upper_sampling" : 2.566813003934521,
+                "lower_sampling" : 0.5508340548890085
+              }
+            }
+          },
+          {
+            "key" : "Skirts",
+            "doc_count" : 34,
+            "extend_stats_class" : {
+              "count" : 34,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.5294117647058822,
+              "sum" : 52.0,
+              "sum_of_squares" : 88.0,
+              "variance" : 0.24913494809688577,
+              "variance_population" : 0.24913494809688577,
+              "variance_sampling" : 0.2566844919786096,
+              "std_deviation" : 0.49913419848462176,
+              "std_deviation_population" : 0.49913419848462176,
+              "std_deviation_sampling" : 0.5066403971048988,
+              "std_deviation_bounds" : {
+                "upper" : 2.527680161675126,
+                "lower" : 0.5311433677366387,
+                "upper_population" : 2.527680161675126,
+                "lower_population" : 0.5311433677366387,
+                "upper_sampling" : 2.5426925589156797,
+                "lower_sampling" : 0.5161309704960846
+              }
+            }
+          },
+          {
+            "key" : "Lounge",
+            "doc_count" : 27,
+            "extend_stats_class" : {
+              "count" : 27,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.4814814814814814,
+              "sum" : 40.0,
+              "sum_of_squares" : 66.0,
+              "variance" : 0.24965706447187927,
+              "variance_population" : 0.24965706447187927,
+              "variance_sampling" : 0.25925925925925924,
+              "std_deviation" : 0.4996569467863719,
+              "std_deviation_population" : 0.4996569467863719,
+              "std_deviation_sampling" : 0.5091750772173156,
+              "std_deviation_bounds" : {
+                "upper" : 2.480795375054225,
+                "lower" : 0.4821675879087376,
+                "upper_population" : 2.480795375054225,
+                "lower_population" : 0.4821675879087376,
+                "upper_sampling" : 2.4998316359161126,
+                "lower_sampling" : 0.4631313270468502
+              }
+            }
+          },
+          {
+            "key" : "Jackets",
+            "doc_count" : 26,
+            "extend_stats_class" : {
+              "count" : 26,
+              "min" : 1.0,
+              "max" : 2.0,
+              "avg" : 1.6153846153846154,
+              "sum" : 42.0,
+              "sum_of_squares" : 74.0,
+              "variance" : 0.23668639053254464,
+              "variance_population" : 0.23668639053254464,
+              "variance_sampling" : 0.24615384615384642,
+              "std_deviation" : 0.48650425541052017,
+              "std_deviation_population" : 0.48650425541052017,
+              "std_deviation_sampling" : 0.4961389383568341,
+              "std_deviation_bounds" : {
+                "upper" : 2.5883931262056556,
+                "lower" : 0.6423761045635751,
+                "upper_population" : 2.5883931262056556,
+                "lower_population" : 0.6423761045635751,
+                "upper_sampling" : 2.6076624920982834,
+                "lower_sampling" : 0.6231067386709472
+              }
+            }
+          }
+        ]
+      }
+    }
+  }

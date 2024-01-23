@@ -1,0 +1,22 @@
+{
+    "size":0,
+    "query": {
+      "bool": {
+        "must_not": [{
+            "terms": {
+              "Review Text": ["horrible", "bad", "average"]}}],
+        "should": [{
+            "terms": {
+              "Review Text": ["good","great", "love"]}}],
+        "filter": [
+            {
+              "range": {"Rating": {"gte": 5.0}}},
+            {
+              "range" : {"Positive Feedback Count": {"gte" : 10}}} ]}},
+    "aggs" : {
+      "Class_aggs" : {
+         "terms" : {
+            "field" : "Class Name.keyword"},
+              "aggs" : {
+                 "extend_stats_class" : {
+                   "extended_stats": {"field": "Positive Feedback Count"} }} }} }

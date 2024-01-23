@@ -1,0 +1,204 @@
+{
+  "took": 316,
+  "timed_out": false,
+  "_shards": {
+    "total": 2,
+    "successful": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "eval_new",
+        "_id": "4wPSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "254",
+          "Age": "45",
+          "Title": "Lovely, flattering, comfortable",
+          "Review Text": "It's very pretty. i purchased mine in the floral. romantic floral. the peplum is true to photos. it isn't short as many are. the print is gorgeous and the fabric is soft and comfortable and the styling is perfect",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "1",
+          "Division Name": "Initmates",
+          "Department Name": "Intimate",
+          "Class Name": "Swim"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "5gPSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1080",
+          "Age": "33",
+          "Title": "Maximizes bust if that's what you want",
+          "Review Text": "I love everything about this dress, but the bust area. the bottom is so light and flowey with the pleating. makes you want to twirl. the color is light but not as light as the photo. it does not wash me out. the problem is the bust. it has pleats that billow out near the armpit area, making you look top heavy. the bottom is slimming, the top make you look buxom. the v neck is also higher than i would like, which again adds to the fullness of the chest area. i am still debating keeping this or re",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "5wPSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1080",
+          "Age": "42",
+          "Title": "Feminine dress",
+          "Review Text": "I love this dress! the colors are so pretty and the fit is very flattering.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "6gPSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "833",
+          "Age": "39",
+          "Title": "Beautiful tank to wear for years",
+          "Review Text": "I was urged to try this on by my usual stylist as she thought it would look nice with shorts i purchased or jeans or pencil skirt i own (she knows a lot of what i own). it is truly pretty love the embroidered cut outs makes the tank look stylish. the cut is also flattering, though i think i'll have to wear a strapless bra. color is also warm enough to work on pale skin like me or a golden tan. i purchased the 0 regulr, tried on petite but i found it was short and flared too much. i am 115 lbs 30",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "11",
+          "Division Name": "General Petite",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "7QPSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1080",
+          "Age": "28",
+          "Title": "",
+          "Review Text": "",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "8APSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1080",
+          "Age": "40",
+          "Title": "",
+          "Review Text": "",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "8wPSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1110",
+          "Age": "44",
+          "Title": "Beautiful dress; so excited to wear it!!!",
+          "Review Text": "I saw this dress in the catalog and had to have it. when i went to the store it was sold out so i had them order and ship it to me in two sizes - my regular and one size larger. when i got them, i tried on my regular size first and it was just perfect! beautiful pattern and material. light and airy. sexy with the low-cut \"keyhole.\" i am sooo happy with my purchase.",
+          "Rating": "1",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "9APSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "860",
+          "Age": "29",
+          "Title": "Cute turtleneck",
+          "Review Text": "I love the design of this top - short and swingy, with a cute mock turtleneck and interesting textured pattern. definitely runs large - if you're between sizes, definitely go for the smaller one. it also has pretty large armholes, so you can kind of see your bra from the side.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "3",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Knits"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "9gPSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "909",
+          "Age": "27",
+          "Title": "Fabric felt cheap",
+          "Review Text": "The product looked more or less as expected, but the fabric felt very cheap. not the quality i would expect from retailer. the shirt is also very short, which did not bother me but is something others should be aware of.",
+          "Rating": "2",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "9",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Fine gauge"
+        }
+      },
+      {
+        "_index": "eval_new",
+        "_id": "9wPSC4kBnTrP-VY6heNE",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "860",
+          "Age": "54",
+          "Title": "Love the top, but the armholes!",
+          "Review Text": "I bought this top in black. it is high quality material and i love the mock neck and zipper in back.  however, not only are the armholes are too large, the shirt is cut too short. if i size down for smaller armholes, it becomes a crop top, not a flattering look for 50-something me. i really wanted this to work, but alas, it went back.",
+          "Rating": "2",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "1",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Knits"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "eval_new": {
+    "mappings": {
+      "properties": {
+        "Age": {
+          "type": "integer"
+        },
+        "Class Name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          },
+          "term_vector": "with_positions_offsets"
+        },
+        "Clothing ID": {
+          "type": "integer"
+        },
+        "Department Name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          },
+          "term_vector": "with_positions_offsets"
+        },
+        "Division Name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          },
+          "term_vector": "with_positions_offsets"
+        },
+        "Positive Feedback Count": {
+          "type": "float"
+        },
+        "Rating": {
+          "type": "float"
+        },
+        "Recommended IND": {
+          "type": "float"
+        },
+        "Review Text": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          },
+          "term_vector": "with_positions_offsets"
+        },
+        "Title": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          },
+          "term_vector": "with_positions_offsets"
+        }
+      }
+    }
+  }
+}

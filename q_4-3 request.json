@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "class_agg": {
+      "terms": {
+        "field": "Class Name.keyword"},
+        "aggs": {
+          "Rating_agg": {
+            "terms": {
+              "field": "Rating"} }} }} }

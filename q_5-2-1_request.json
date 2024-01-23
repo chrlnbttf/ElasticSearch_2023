@@ -1,0 +1,17 @@
+GET /eval_nw/_search
+{
+    "query": {
+      "bool": {
+        "should": [{
+            "terms": {
+              "Review Text": ["horrible", "bad", "average", "defect", "upset", "disappointed", "disappointing"]}}],
+        "must_not": [{
+            "terms": {
+              "Review Text": ["good","great", "wonderful"]}}],
+        "filter": [
+            {
+              "range": {"Rating": {"lte": 1.0}}},
+            {
+              "range": {"Recommended IND": {"lte": 0}}},
+            {
+              "range" : {"Positive Feedback Count": {"lte" : 0}}}] }}}

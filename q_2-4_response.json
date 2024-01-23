@@ -1,0 +1,9 @@
+{
+    "count" : 23486,
+    "_shards" : {
+      "total" : 2,
+      "successful" : 2,
+      "skipped" : 0,
+      "failed" : 0
+    }
+  }

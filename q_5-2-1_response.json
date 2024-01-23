@@ -1,0 +1,205 @@
+{
+    "took" : 213,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 1,
+      "successful" : 1,
+      "skipped" : 0,
+      "failed" : 0
+    },
+    "hits" : {
+      "total" : {
+        "value" : 283,
+        "relation" : "eq"
+      },
+      "max_score" : 1.0,
+      "hits" : [
+        {
+          "_index" : "eval_nw",
+          "_id" : "bgPSC4kBnTrP-VY6heRE",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "879",
+            "Age" : "40",
+            "Title" : "Snags easily",
+            "Review Text" : "I was very disappointed in the quality of this top. the first time i wore it it snagged right in the front. i had to pull the thread under so it wasn't exposed. i put it in the wash in the gentle cycle and it was destroyed with several more snags when i removed it from the machine. this top is extremely delicate and doesn't withstand normal everyday casual wear although it's s casual lightweight sweater. now it's just a wear around the house ratty throw around shirt.",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General",
+            "Department Name" : "Tops",
+            "Class Name" : "Knits"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "7wPSC4kBnTrP-VY6h-as",
+          "_score" : 1.0,
+          "_source" : {
+            "Clothing ID" : "829",
+            "Age" : "35",
+            "Title" : "Tight sleeves",
+            "Review Text" : "Seems there was a design defect in this item--sleeves are way too tight and hardly go on without ripping the shirt. i have pretty thin arms so it's hard to imagine this not happening on anyone. too bad because it's otherwise a very nice top.",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General",
+            "Department Name" : "Tops",
+            "Class Name" : "Blouses"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "5APSC4kBnTrP-VY6iOej",
+          "_score" : 1.0,
+          "_source" : {
+            "Clothing ID" : "1081",
+            "Age" : "49",
+            "Title" : "",
+            "Review Text" : "Purchased this item on sale-received it and it had two huge holes on the side.not possible to repair. very disappointed in lack of quality control. :(",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General Petite",
+            "Department Name" : "Dresses",
+            "Class Name" : "Dresses"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "0APSC4kBnTrP-VY6iOij",
+          "_score" : 1.0,
+          "_source" : {
+            "Clothing ID" : "1079",
+            "Age" : "46",
+            "Title" : "Buttons broke before i even got it on!",
+            "Review Text" : "I'm so disappointed. the dress looked lovely in the box, but when i started to unbutton it to try it on, two buttons split in half! it's going right back.",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General",
+            "Department Name" : "Dresses",
+            "Class Name" : "Dresses"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "DAPSC4kBnTrP-VY6iero",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "1080",
+            "Age" : "22",
+            "Title" : "Spandex, not tweed dress",
+            "Review Text" : "I was so excited to receive this dress only to come find out that it was not tweed, not the same colors as the picture, spandex material, the fit runs smaller than most of their dresses and the sleeves are capped. i love retailer and prefer their clothes above all other brands but i was extremely disappointed in this dress.",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General",
+            "Department Name" : "Dresses",
+            "Class Name" : "Dresses"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "TwPSC4kBnTrP-VY6fdYD",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "641",
+            "Age" : "35",
+            "Title" : "",
+            "Review Text" : "I thought this dress would be a cute beach cover up so i was excited to order it but i was very disappointed. i am 5'7 and i usually wear a size small top and 4 dress so i ordered a small in this dress but it was huge!! i understand that it is not meant to be form fitting and i wasn't expecting it to be but when i tried this on i felt like i was wearing a potato sack. i feel like an extra small would have been just as bad. i was so upset. it also has thin silver lines through it which, for me, m",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General Petite",
+            "Department Name" : "Intimate",
+            "Class Name" : "Lounge"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "FwPSC4kBnTrP-VY6fdcD",
+          "_score" : 1.0,
+          "_source" : {
+            "Clothing ID" : "1092",
+            "Age" : "32",
+            "Title" : "",
+            "Review Text" : "So disappointed! beautiful dress in the photographs but the cut was incredibly strange. loose and baggy through the top and mid-section but tight around the buttock and thighs.",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General",
+            "Department Name" : "Dresses",
+            "Class Name" : "Dresses"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "FQPSC4kBnTrP-VY6fdgD",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "116",
+            "Age" : "56",
+            "Title" : "Doesn't wash well",
+            "Review Text" : "I wish i had read the other reviews before purchasing this product. label says that you can wash and dry normally. however, upon washing, the outer layer shrunk and the inner lining did not. the robe will now not lay flat; the fabric pulls at the edges, and results in the inner lining being revealed when the robe is tied shut. extremely disappointed. for a $100 garment, i expected much more. i wish i could return this.",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "Initmates",
+            "Department Name" : "Intimate",
+            "Class Name" : "Sleep"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "_gPSC4kBnTrP-VY6ccuP",
+          "_score" : 1.0,
+          "_source" : {
+            "Clothing ID" : "1078",
+            "Age" : "31",
+            "Title" : "Cheap",
+            "Review Text" : "This dress looks and feels cheap. the white material is stiff and does not iron nicely. the grey sweater is super thin and very cheap looking. overall, a pretty horrible dress. save your money,",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General Petite",
+            "Department Name" : "Dresses",
+            "Class Name" : "Dresses"
+          }
+        },
+        {
+          "_index" : "eval_nw",
+          "_id" : "PwPSC4kBnTrP-VY6c804",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "832",
+            "Age" : "30",
+            "Title" : "Stain on shirt",
+            "Review Text" : "I was very disappointed with my recent retailer order. i ordered the meleri eyelet tank and it had a stain on the front. i also order a dress that came with a tear in the fabric. sale items should not be damaged unless the customer is aware of the damage and accepts it in that condition. very disappointing.",
+            "Rating" : "1",
+            "Recommended IND" : "0",
+            "Positive Feedback Count" : "0",
+            "Division Name" : "General",
+            "Department Name" : "Tops",
+            "Class Name" : "Blouses"
+          }
+        }
+      ]
+    }
+  }
+  

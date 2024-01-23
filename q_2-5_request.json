@@ -1,0 +1,10 @@
+{
+    "size" : 0,
+    "aggs": {
+      "agg_division": {
+        "terms": {
+          "field": "Division Name.keyword"},
+        "aggs": {
+          "agg_department": {
+            "terms": {
+              "field": "Department Name.keyword"}}}}}} 

@@ -1,0 +1,7 @@
+{
+  "size": 0,
+  "aggs": {
+    "rating_median": {
+      "percentiles": {
+        "field": "Rating",
+        "percents": [50]}}}}

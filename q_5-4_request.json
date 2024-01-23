@@ -1,0 +1,24 @@
+{
+    "size": 0,
+    "query": {
+      "bool": {
+        "should": [{
+            "terms": {
+              "Review Text": ["horrible", "bad", "average", "defect", "upset", "disappointed", "disappointing"]}}],
+        "must_not": [{
+            "terms": {
+              "Review Text": ["good","great", "wonderful"]}}],
+        "filter": [
+            {
+              "range": {"Rating": {"lte": 2.0}}},
+            {
+              "range": {"Recommended IND": {"lte": 0}}},
+            {
+              "range" : {"Positive Feedback Count": {"lte" : 1}}}] }},
+    "aggs" : {
+      "Class_aggs" : {
+        "terms" : {
+          "field" : "Class Name.keyword"},
+        "aggs" : {
+          "extend_stats_class" : {
+            "extended_stats": {"field": "Positive Feedback Count"} }} }} }

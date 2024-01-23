@@ -1,0 +1,115 @@
+{
+    "_scroll_id" : "FGluY2x1ZGVfY29udGV4dF91dWlkDnF1ZXJ5VGhlbkZldGNoAhYwYTl6aWRJSlRFSzlXQnhqSUtjWWVRAAAAAAAAaqQWdTVyM2dRMlFUYjZKSEZJbmJQN2R1ZxYwYTl6aWRJSlRFSzlXQnhqSUtjWWVRAAAAAAAAaqUWdTVyM2dRMlFUYjZKSEZJbmJQN2R1Zw==",
+    "took" : 766,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 2,
+      "successful" : 2,
+      "skipped" : 0,
+      "failed" : 0
+    },
+    "hits" : {
+      "total" : {
+        "value" : 23472,
+        "relation" : "eq"
+      },
+      "max_score" : 0.0,
+      "hits" : [
+        {
+          "_index" : "eval_new",
+          "_id" : "4wPSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_source" : {
+            "Clothing ID" : "254"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "5gPSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "1080"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "5wPSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_source" : {
+            "Clothing ID" : "1080"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "6gPSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "833"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "7QPSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_source" : {
+            "Clothing ID" : "1080"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "8APSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_source" : {
+            "Clothing ID" : "1080"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "8wPSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "1110"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "9APSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "860"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "9gPSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_source" : {
+            "Clothing ID" : "909"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "9wPSC4kBnTrP-VY6heNE",
+          "_score" : 0.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "860"
+          }
+        }
+      ]
+    }
+  }

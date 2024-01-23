@@ -1,0 +1,103 @@
+{
+    "took" : 435,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 2,
+      "successful" : 2,
+      "skipped" : 0,
+      "failed" : 0
+    },
+    "hits" : {
+      "total" : {
+        "value" : 4,
+        "relation" : "eq"
+      },
+      "max_score" : 1.0,
+      "hits" : [
+        {
+          "_index" : "eval_new",
+          "_id" : "9gPSC4kBnTrP-VY6e9Tm",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "863",
+            "Age" : "65",
+            "Title" : "A necessity!",
+            "Review Text" : "Yes, this is a bit expensive; however, it is made in the usa, so that is a very good thing. i appreciate having the opportunity to buy high quality, well-designed basic pieces that are simultaneously supporting my community and country. when you are considering this pretty top, please click on the gold so that you can see the detail. it is very well-made and flattering. i love how it has a slight shape at the back, very flattering and feminine. the feel and weight of the cotton is remarkably com",
+            "Rating" : "5",
+            "Recommended IND" : "1",
+            "Positive Feedback Count" : "52",
+            "Division Name" : "General",
+            "Department Name" : "Tops",
+            "Class Name" : "Knits"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "xwPSC4kBnTrP-VY6fdnR",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "877",
+            "Age" : "37",
+            "Title" : "Great basic with a twist",
+            "Review Text" : """My husband saw this in the store while shopping with me and asked me to try it on. i don't normally go for patterns like this, but i thought it was cute and springy.
+  
+  i tried on a large first, since i prefer to cover my belly and allow for my broad shoulders. (i'm tall, big boned and 175 pounds) the large actually stuck out funny at the bottom and didn't do much for my shape.
+  
+  the medium, however was great! it was long enough to hide my belly and cover enough of my waistband that i wouldn't""",
+            "Rating" : "5",
+            "Recommended IND" : "1",
+            "Positive Feedback Count" : "51",
+            "Division Name" : "General Petite",
+            "Department Name" : "Tops",
+            "Class Name" : "Knits"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "nAPSC4kBnTrP-VY6gNw4",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "1078",
+            "Age" : "34",
+            "Title" : "Lilac and coral",
+            "Review Text" : "I am quite happy with this dress! i was wondering what the colors would look like in person, and i'm happy to report that the skirt is a nice mellow orange-coral. beautiful detail in the patterns used here, and i always like a dress that has great color-play close up and far away. for reference, i am a size 16, full figured, with a 40 c bust, and the size 16 was just right for me. sometimes with maeve dresses you can size down, but there is no stretch to the dress, or the slip, so that is someth",
+            "Rating" : "5",
+            "Recommended IND" : "1",
+            "Positive Feedback Count" : "53",
+            "Division Name" : "General Petite",
+            "Department Name" : "Dresses",
+            "Class Name" : "Dresses"
+          }
+        },
+        {
+          "_index" : "eval_new",
+          "_id" : "IATSC4kBnTrP-VY6uA9R",
+          "_score" : 1.0,
+          "_ignored" : [
+            "Review Text.keyword"
+          ],
+          "_source" : {
+            "Clothing ID" : "864",
+            "Age" : "30",
+            "Title" : "Beautiful top!",
+            "Review Text" : "Love this top! the lace pattern is gorgeous, and the detail at the neck and sleeves make it a little more casual. it's completely sheer, so you do need a white tank or shell underneath. the top is on the shorter side, but definitely not a crop. i'm 34c and 140b and got a small. fits great and pairs well with black pants and heeled booties.",
+            "Rating" : "5",
+            "Recommended IND" : "1",
+            "Positive Feedback Count" : "59",
+            "Division Name" : "General",
+            "Department Name" : "Tops",
+            "Class Name" : "Knits"
+          }
+        }
+      ]
+    }
+  }

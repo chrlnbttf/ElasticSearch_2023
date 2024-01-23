@@ -1,0 +1,14 @@
+{
+  "query": {
+    "bool": {
+      "must_not": [{
+          "terms": {
+            "Review Text": ["horrible", "bad", "average"]}}],
+      "must": [{
+          "terms": {
+            "Review Text": ["good","great"]}}],
+      "filter": [
+          {
+            "range": {"Rating": {"gte": 5.0}}},
+          {
+            "range" : {"Positive Feedback Count": {"gte" : 50}}} ] }}}
